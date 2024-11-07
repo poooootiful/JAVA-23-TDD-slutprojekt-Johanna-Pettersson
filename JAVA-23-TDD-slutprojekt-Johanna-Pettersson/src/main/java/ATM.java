@@ -1,8 +1,8 @@
 public class ATM {
-    private MockBank bank;
+    private Bankinterface bank;
     private User currentUser;
 
-    public ATM (MockBank bank) {
+    public ATM (Bankinterface bank) {
         this.bank = bank;
     }
 
@@ -23,7 +23,7 @@ public class ATM {
         }else {
             currentUser.increseFailedAttempts();;
             if (currentUser.getFailedAttempts() >= 3) {
-                currentUser.isLocked();
+                currentUser.lockCard();
                 System.out.println("Card is locked");
             }
             return false;

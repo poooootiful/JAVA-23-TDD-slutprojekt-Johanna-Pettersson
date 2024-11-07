@@ -13,6 +13,4 @@ public class MockBank implements Bankinterface{
         User user = users.get(userid);
         return user != null && user.isLocked();
     }
-
-
 }

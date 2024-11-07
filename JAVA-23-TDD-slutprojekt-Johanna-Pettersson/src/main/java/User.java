@@ -48,6 +48,6 @@ public class User {
         this.balance += amount;
     }
     public void withdraw (double amount) {
-        this.balance += amount;
+        this.balance -= amount;
     }
 }

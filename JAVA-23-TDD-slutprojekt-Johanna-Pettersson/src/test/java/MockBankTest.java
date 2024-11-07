@@ -57,7 +57,7 @@ public class MockBankTest {
         double depositAmount = 50.0;
 
         user.deposit(depositAmount);
-        assertEquals(initialBalance+depositAmount, user.getFailedAttempts(),0.01, "Balance should increase by deposit amount");
+        assertEquals(initialBalance+depositAmount, user.getBalance(),0.01, "Balance should increase by deposit amount");
 
     }
 
@@ -68,6 +68,6 @@ public class MockBankTest {
         double withdrawAmount = 50.0;
 
         user.withdraw(withdrawAmount);
-        assertEquals(initialBalance-withdrawAmount, user.getFailedAttempts(),0.01, "Balance should decrease by withdraw amount");
+        assertEquals(initialBalance-withdrawAmount, user.getBalance(),0.01, "Balance should decrease by withdraw amount");
     }
 }

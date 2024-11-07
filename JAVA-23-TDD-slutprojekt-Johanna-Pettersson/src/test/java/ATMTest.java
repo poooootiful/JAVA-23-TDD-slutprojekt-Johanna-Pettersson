@@ -11,7 +11,7 @@ import static org.mockito.Mockito.when;
 
 class ATMTest {
     @Mock
-    private MockBank bank;
+    private Bankinterface bank;
 
     @InjectMocks
     private ATM atm;
@@ -81,6 +81,6 @@ class ATMTest {
         atm.enterPin(6583);
 
         assertTrue(atm.withdraw(35.0));
-        assertEquals(865.0, user.getBalance(), 0.01);  // Check balance after withdrawal
+        assertEquals(865.0, user.getBalance(), 0.01);
     }
 }
