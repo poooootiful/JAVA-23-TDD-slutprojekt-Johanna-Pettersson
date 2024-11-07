@@ -4,15 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d863e401-254a-4269-9143-a655ec32954f" name="Changes" comment="" />
+    <list default="true" id="d863e401-254a-4269-9143-a655ec32954f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA-23-TDD-slutprojekt-Johanna-Pettersson/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA-23-TDD-slutprojekt-Johanna-Pettersson/src/test/java/ATMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA-23-TDD-slutprojekt-Johanna-Pettersson/src/test/java/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA-23-TDD-slutprojekt-Johanna-Pettersson/src/test/java/MockBankTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA-23-TDD-slutprojekt-Johanna-Pettersson/src/test/java/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA-23-TDD-slutprojekt-Johanna-Pettersson/src/main/java/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA-23-TDD-slutprojekt-Johanna-Pettersson/src/main/java/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA-23-TDD-slutprojekt-Johanna-Pettersson/src/main/java/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA-23-TDD-slutprojekt-Johanna-Pettersson/src/main/java/MockBank.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2oQe2wtcKOkaL7HYrtdrJ8dwL6D" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
