@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class MockBank implements Bankinterface{
 
-    private Map <String, User> users = new HashMap<>();
+    public Map <String, User> users = new HashMap<>();
 
     public  User getUserById (String id) {
         return  users.get(id);
